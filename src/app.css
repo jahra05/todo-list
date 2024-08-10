@@ -1,0 +1,111 @@
+:root{
+    --primary:#16ABF8;
+}
+.header{
+    background-color: var(--primary);
+    box-shadow: 0px 4px 10px 0px #0000001A;
+    padding: 34px 0px 34px 220px;
+
+}
+
+.header-title{
+    margin: 0;
+    font-weight: 700;
+    color: white;
+
+}
+
+.main-content{
+    max-width: 1400px;
+    padding: 24px;
+    margin: none;
+}
+
+.content-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-header_title{
+    font-weight: 800;
+    font-family: "Poppins", "san-serif";
+
+}
+
+
+/* BUTTON */
+.btn {
+
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn > .material-symbols-outlined {
+    margin-right: 4px;
+}
+
+/* Basic button styles */
+.btn {
+    background-color: var(--primary);
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+/* Primary button styles */
+.btn-primary {
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+    border-radius: 9999px;
+}
+
+/* Hover effect for both buttons */
+.btn:hover {
+    background-color: #ddd;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-rounded {
+    border-radius: 9999px;
+}
+/* END BUTTON */
+
+.empty-state{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todos {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 kolom */
+    gap: 10px;  /* Jarak antar grid item */
+
+
+    
+    
+   
+}
+
+.todo-item {
+    padding: 22px 24px;
+    box-shadow: 0px 6px 10px 0px #0000001A;
+    width: 225px;
+    height: 224px;
+    border-radius: 12px;
+    background-color: #fff;
+    
+    
+}
